@@ -546,7 +546,7 @@ namespace OpenHardwareMonitor.GUI {
             // splitContainer.Panel2
             // 
             this.splitContainer.Panel2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.splitContainer.Panel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.splitContainer.Panel2.ForeColor = System.Drawing.Color.White;
             this.splitContainer.Size = new System.Drawing.Size(450, 557);
             this.splitContainer.SplitterDistance = 408;
             this.splitContainer.SplitterWidth = 6;
@@ -554,7 +554,7 @@ namespace OpenHardwareMonitor.GUI {
             // 
             // treeView
             // 
-            this.treeView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.treeView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
             this.treeView.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.treeView.Columns.Add(this.sensor);
             this.treeView.Columns.Add(this.value);
@@ -564,7 +564,7 @@ namespace OpenHardwareMonitor.GUI {
             this.treeView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView.DragDropMarkColor = System.Drawing.SystemColors.ActiveCaption;
             this.treeView.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.treeView.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.treeView.ForeColor = System.Drawing.Color.White;
             this.treeView.FullRowSelect = true;
             this.treeView.LineColor = System.Drawing.SystemColors.ActiveCaption;
             this.treeView.Location = new System.Drawing.Point(0, 0);
@@ -670,10 +670,10 @@ namespace OpenHardwareMonitor.GUI {
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
-            this.ClientSize = new System.Drawing.Size(488, 919);
+            this.ClientSize = new System.Drawing.Size(488, 898);
             this.Controls.Add(this.splitContainer);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Menu = this.mainMenu;
             this.Name = "MainForm";
